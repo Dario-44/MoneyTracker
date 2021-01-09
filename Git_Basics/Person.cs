@@ -8,5 +8,11 @@ namespace Git_Basics
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
+
+        public Person(string fn, string ln)
+        {
+            FirstName = fn;
+            LastName = ln;
+        }
     }
 }
