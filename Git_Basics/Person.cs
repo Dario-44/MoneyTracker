@@ -9,10 +9,10 @@ namespace Git_Basics
         public string FirstName { get; set; }
         public string LastName { get; set; }
 
-        public Person(string fn, string ln)
+        public Person(string first, string last)
         {
-            FirstName = fn;
-            LastName = ln;
+            FirstName = first;
+            LastName = last;
         }
     }
 }
